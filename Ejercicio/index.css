@@ -1,0 +1,17 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+button{
+    background-color: crimson;
+    color: aqua;
+    border-radius: 10px;
+}
+body{
+    background-color: azure;
+
+}
+img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
