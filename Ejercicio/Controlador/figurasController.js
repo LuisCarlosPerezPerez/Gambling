@@ -64,7 +64,6 @@ function ImprimirResultado(tiradaActual){
 function Comprobar(tiradaActual){
         const idioma = document.getElementById("idioma").value;
             if(tiradaActual.fig3 == tiradaActual.fig1  && tiradaActual.fig1==tiradaActual.fig2){
-                var audio = document.getElementById("sonido-victoria");
                 audio.play();
 
                 if(tiradaActual.fig1 == 0){
@@ -114,6 +113,7 @@ function Comprobar(tiradaActual){
         }
 
 function Girar(){
+    audio.pause();
     saldo-=10;
     Guardarfig(figuras,historialGiros);
     const ultimaTirada = historialGiros[historialGiros.length - 1];
