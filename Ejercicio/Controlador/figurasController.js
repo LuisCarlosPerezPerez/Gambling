@@ -189,9 +189,9 @@ function Idioma(){
                 document.getElementById("idioma").value ="Español";
             }
         }
-        function QAudio(){
+        function QuitarAudio(){
             sonido.src = "";
         }
-        function HAudio(){
+        function HabilitarAudio(){
             sonido.src = "Sonido/slot-machine-payout-81725.mp3";
         }
