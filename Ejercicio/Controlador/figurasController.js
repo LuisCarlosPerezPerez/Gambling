@@ -125,11 +125,9 @@ function Retirar(){
         function Retiro(){
             var dinero= document.getElementById("DineroRetirado").value;
             let din = parseInt(dinero);
-            var saldo= document.getElementById("saldo").value;
-            let sal = parseInt(saldo);
-            if(din < sal){
-                sal-=din;
-                document.getElementById("saldo").value = sal;
+            if(din < saldo){
+                saldo-=din;
+                document.getElementById("saldo").value = saldo;
             }
             document.getElementById("Retirar").setAttribute("hidden", "");
         }
@@ -139,10 +137,8 @@ function Retirar(){
         function Ingreso(){
             var dinero= document.getElementById("DineroIngresado").value;
             let din = parseInt(dinero);
-            var saldo= document.getElementById("saldo").value;
-            let sal = parseInt(saldo);
-            sal+=din;
-            document.getElementById("saldo").value = sal;
+            saldo+=din;
+            document.getElementById("saldo").value = saldo;
             document.getElementById("Ingresar").setAttribute("hidden", "");
         }
         function Hora(){ 
