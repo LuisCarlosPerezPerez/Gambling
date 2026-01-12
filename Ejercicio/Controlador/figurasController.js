@@ -159,15 +159,15 @@ function Idioma(){
                 document.getElementById("labelidioma").innerText ="Language";
                 document.getElementById("botonidioma").innerText = "Change Language";
                 document.getElementById("botongirar").innerText = "Spin";
-                document.getElementById("botonretirar").innerText = "withdraw";
+                document.getElementById("botonretirar").innerText = "Withdraw";
                 document.getElementById("botoningresar").innerText = "Deposit";
                 document.getElementById("labeldineroing").innerText = "Money to deposit";
                 document.getElementById("botondineroing").innerText ="Deposit money";
-                document.getElementById("labeldineroret").innerText = "Money to Withdraw";
+                document.getElementById("labeldineroret").innerText = "Money to withdraw";
                 document.getElementById("botondineroret").innerText = "Withdraw money";
                 document.getElementById("resultado").innerHTML= "";
-                document.getElementById("QAudio").innerHTML="mute";
-                document.getElementById("HAudio").innerHTML="unmute";
+                document.getElementById("QAudio").innerHTML="Mute";
+                document.getElementById("HAudio").innerHTML="Unmute";
                 document.getElementById("labelreloj").innerHTML = "Time:";
                 document.getElementById("idioma").value ="English";
             }
