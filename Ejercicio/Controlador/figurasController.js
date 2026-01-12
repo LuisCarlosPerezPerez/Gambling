@@ -67,39 +67,39 @@ function Comprobar(tiradaActual){
                 audio.play();
 
                 if(tiradaActual.fig1 == 0){
-                    saldo += 30;
+                    saldo += 300;
                     if(idioma === "Español"){
-                        document.getElementById("resultado").innerHTML= "Has ganado: " + 30 +"€";
+                        document.getElementById("resultado").innerHTML= "Has ganado: " + 300 +"€";
                     }else{
-                        document.getElementById("resultado").innerHTML= "You won: " + 30 +"€";
+                        document.getElementById("resultado").innerHTML= "You won: " + 300 +"€";
                     }
                 }else if(tiradaActual.fig1 ==1){
-                    saldo += 10; 
+                    saldo += 100; 
                     if(idioma === "Español"){
-                        document.getElementById("resultado").innerHTML= "Has ganado: " + 10 +"€";
+                        document.getElementById("resultado").innerHTML= "Has ganado: " + 100 +"€";
                     }else{
-                        document.getElementById("resultado").innerHTML= "You won: " + 10 +"€";
+                        document.getElementById("resultado").innerHTML= "You won: " + 100 +"€";
                     }
                 }else if(tiradaActual.fig1 ==2){
-                    saldo += 20;
+                    saldo += 200;
                     if(idioma === "Español"){
-                        document.getElementById("resultado").innerHTML= "Has ganado: " + 20 +"€";
+                        document.getElementById("resultado").innerHTML= "Has ganado: " + 200 +"€";
                     }else{
-                        document.getElementById("resultado").innerHTML= "You won: " + 20 +"€";
+                        document.getElementById("resultado").innerHTML= "You won: " + 200 +"€";
                     }
                 }else if(tiradaActual.fig1 ==3){
-                    saldo +=40;
+                    saldo +=400;
                     if(idioma === "Español"){
-                        document.getElementById("resultado").innerHTML= "Has ganado: " + 40 +"€";
+                        document.getElementById("resultado").innerHTML= "Has ganado: " + 400 +"€";
                     }else{
-                        document.getElementById("resultado").innerHTML= "You won: " + 40 +"€";
+                        document.getElementById("resultado").innerHTML= "You won: " + 400 +"€";
                     }
                 }else if(tiradaActual.fig1 ==4){
-                    saldo+=50;
+                    saldo+=500;
                     if(idioma === "Español"){
-                        document.getElementById("resultado").innerHTML= "Has ganado: " + 50 +"€";
+                        document.getElementById("resultado").innerHTML= "Has ganado: " + 500 +"€";
                     }else{
-                        document.getElementById("resultado").innerHTML= "You won: " + 50 +"€";
+                        document.getElementById("resultado").innerHTML= "You won: " + 500 +"€";
                     }
                 }
             }else{
